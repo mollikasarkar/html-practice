@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="form php">
+        <!-- Name -->
+        <div>
+         <label for="full name">Full Name:</label><br>
+         <input type="text" name="full name" id="full name" placeholder="Enter Your Full Name">
+        </div>
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="test@gmail.com">
+        <div>
+            <!-- Password -->
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="Message">Message</label><br>
+            <textarea name="message" id="message" cols="70" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="gender">Gender:</label><br>
+            <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        </div>
+        <!-- Birthdate -->
+        <div>
+            <label for="birthdate">Birthdate:ssssssss</label><br>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <!-- radio Buttons -->
+        <h3>Chosse A Course</h3>
+        <div>
+            <input type="radio" name="course" id="html">
+            <label for="html">Html</label><br>
+            <input type="radio" name="course" id="css">
+            <label for="css">CSS</label><br>
+            <input type="radio" name="course" id="jabascript">
+            <label for="jabascript">jabascript</label><br>
+        </div>
+        <!-- Checkbox -->
+        <h3>Favourite Food</h3>
+        <div>
+            <input type="checkbox" name="pizza" id="pizza">
+            <label for="pizza">Pizza</label><br>
+            <input type="checkbox" name="hot dog" id="hot dog">
+            <label for="hot dog">Hot dog</label><br>
+            <input type="checkbox" name="burger" id="burger">
+            <label for="burger">Burger</label>
+        </div>
+        <!-- buttons -->
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <button type="submit">Submit button</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
