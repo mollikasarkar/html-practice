@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var numarray = [55, 60, 65, 70, 75, 80, 85, 90];
+      //   numarray.splice(index, removeCount, item);
+      //   remove 60;
+      numarray.splice(1, 1);
+      document.write(numarray + "<br>");
+
+      //   add
+      numarray.splice(8, 0, 95);
+      document.write(numarray);
+    </script>
+  </body>
+</html>
